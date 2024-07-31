@@ -8,7 +8,7 @@ async function imgURLtoBase64(url) {
     return reader.result;    
 }
 
-(async function() {        
+return (async function() {        
     const imgSrc = await imgURLtoBase64('https://cdn.jsdelivr.net/gh/ascended12/alterationcity-data/Furina_wink.webp');
 
     console.log(
