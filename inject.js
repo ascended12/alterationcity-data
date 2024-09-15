@@ -17,8 +17,4 @@ return (async function() {
         "",
         "font-size: 16px; color: #015dc2; background-color: #e9f0f1; border-radius: 3px"
     );
-
-    if (window.location.hostname != 'revisionvillagearchive.pages.dev') {
-        window.location.href = window.location.href.replace(window.location.hostname, 'revisionvillagearchive.pages.dev');
-    }
 })();
